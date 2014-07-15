@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SpatialDataRender.cs">
+    <Files>
+      <File FileName="Assets\Scripts\DataOptionsGUI.cs" Line="50" Column="15" />
+      <File FileName="Assets\Scripts\DataSource.cs" Line="40" Column="30" />
+      <File FileName="Assets\Scripts\SpatialDataRender.cs" Line="51" Column="106" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

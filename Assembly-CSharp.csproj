@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{14A0C245-21E1-5946-5F41-CB6A564A49FA}</ProjectGuid>
+	<ProjectGuid>{4B2A5E7D-547D-3368-F936-4C330C03070B}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,24 +47,29 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Camera Scripts\CameraControls.cs" />
+     <Compile Include="Assets\Scripts\Camera Scripts\CameraDolley.cs" />
+     <Compile Include="Assets\Scripts\Camera Scripts\CameraZoom.cs" />
      <Compile Include="Assets\Scripts\Camera Scripts\GradientBackground.cs" />
      <Compile Include="Assets\Scripts\Camera Scripts\TargetPicker.cs" />
      <Compile Include="Assets\Scripts\DataOptionsGUI.cs" />
-     <Compile Include="Assets\Scripts\DataPoint.cs" />
-     <Compile Include="Assets\Scripts\DataPointNode.cs" />
      <Compile Include="Assets\Scripts\DataSource.cs" />
      <Compile Include="Assets\Scripts\EffectType.cs" />
+     <Compile Include="Assets\Scripts\Popup.cs" />
      <Compile Include="Assets\Scripts\SpatialDataRender.cs" />
+     <Compile Include="Assets\Scripts\Suburb.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+ <Reference Include="LumenWorks.Framework.IO">
+ <HintPath>Assets\Plugins\LumenWorks.Framework.IO.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{DAB17A6E-4D5F-B2A7-5960-2791FC428938}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{5E059261-65B8-78EC-9AF6-F2B714BE44D0}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{0354BAD5-CF39-42C7-FE16-879089BBE54A}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{C829C6FA-8EDD-BD53-5D2E-2ADE9F1B9869}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
